@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Prettier" description="JS Code formatting " showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\paco\AppData\Roaming\npm\prettier.cmd" />
+      <option name="PARAMETERS" value="--write $FilePathRelativeToProjectRoot$ --print-width 120 --single-quote" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
